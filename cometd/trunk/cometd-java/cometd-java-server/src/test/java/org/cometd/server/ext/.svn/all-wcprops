@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/!svn/ver/1492/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/ext
+END
+ArrayIdQueueTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/1360/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/ext/ArrayIdQueueTest.java
+END
+ExtensionUnsubscribeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/1404/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/ext/ExtensionUnsubscribeTest.java
+END
+ExtensionHandshakeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/!svn/ver/1398/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/ext/ExtensionHandshakeTest.java
+END
+ExtensionConnectTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/!svn/ver/1408/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/ext/ExtensionConnectTest.java
+END
+ExtensionDisconnectTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/1404/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/ext/ExtensionDisconnectTest.java
+END
+BayeuxExtensionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/1492/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/ext/BayeuxExtensionTest.java
+END
+ExtensionPublishReceivedTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/!svn/ver/1404/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/ext/ExtensionPublishReceivedTest.java
+END
+ExtensionPublishSentTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/1408/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/ext/ExtensionPublishSentTest.java
+END
+ExtensionSubscribeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/!svn/ver/1404/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/ext/ExtensionSubscribeTest.java
+END

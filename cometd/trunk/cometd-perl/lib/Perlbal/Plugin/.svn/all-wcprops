@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/1362/trunk/cometd-perl/lib/Perlbal/Plugin
+END
+StaticWebSelector.pm
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/1362/trunk/cometd-perl/lib/Perlbal/Plugin/StaticWebSelector.pm
+END
+Cometd.pm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/1362/trunk/cometd-perl/lib/Perlbal/Plugin/Cometd.pm
+END

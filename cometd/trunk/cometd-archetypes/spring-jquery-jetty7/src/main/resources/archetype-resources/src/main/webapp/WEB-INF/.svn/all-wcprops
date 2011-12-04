@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/!svn/ver/1595/trunk/cometd-archetypes/spring-jquery-jetty7/src/main/resources/archetype-resources/src/main/webapp/WEB-INF
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/!svn/ver/1595/trunk/cometd-archetypes/spring-jquery-jetty7/src/main/resources/archetype-resources/src/main/webapp/WEB-INF/applicationContext.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/!svn/ver/1595/trunk/cometd-archetypes/spring-jquery-jetty7/src/main/resources/archetype-resources/src/main/webapp/WEB-INF/web.xml
+END

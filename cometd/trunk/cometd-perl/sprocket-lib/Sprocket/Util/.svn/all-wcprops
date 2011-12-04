@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/sprocket/!svn/ver/227/trunk/Sprocket/lib/Sprocket/Util
+END
+Observable.pm
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/sprocket/!svn/ver/207/trunk/Sprocket/lib/Sprocket/Util/Observable.pm
+END
+FDpasser.pm
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/sprocket/!svn/ver/194/trunk/Sprocket/lib/Sprocket/Util/FDpasser.pm
+END
+Accessor.pm
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/sprocket/!svn/ver/227/trunk/Sprocket/lib/Sprocket/Util/Accessor.pm
+END
+ChannelManager.pm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/sprocket/!svn/ver/206/trunk/Sprocket/lib/Sprocket/Util/ChannelManager.pm
+END

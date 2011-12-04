@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/!svn/ver/1362/trunk/cometd-perl
+END
+perlbal
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/1362/trunk/cometd-perl/perlbal
+END
+eventserver.pl
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/1362/trunk/cometd-perl/eventserver.pl
+END
+externals.txt
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/1362/trunk/cometd-perl/externals.txt
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/!svn/ver/1362/trunk/cometd-perl/TODO
+END
+memcached
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/1362/trunk/cometd-perl/memcached
+END
+PORTS
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/1362/trunk/cometd-perl/PORTS
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/1362/trunk/cometd-perl/README
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/1515/trunk/cometd-demo/src/main/java/org/webtide/demo/auction
+END
+Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/1360/trunk/cometd-demo/src/main/java/org/webtide/demo/auction/Utils.java
+END
+AbstractParticipant.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/1360/trunk/cometd-demo/src/main/java/org/webtide/demo/auction/AbstractParticipant.java
+END
+AuctionChatService.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/1515/trunk/cometd-demo/src/main/java/org/webtide/demo/auction/AuctionChatService.java
+END
+AuctionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/1515/trunk/cometd-demo/src/main/java/org/webtide/demo/auction/AuctionService.java
+END
+AuctionServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/1360/trunk/cometd-demo/src/main/java/org/webtide/demo/auction/AuctionServlet.java
+END
+Bidder.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/1360/trunk/cometd-demo/src/main/java/org/webtide/demo/auction/Bidder.java
+END
+Category.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/!svn/ver/1360/trunk/cometd-demo/src/main/java/org/webtide/demo/auction/Category.java
+END
+Bid.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/!svn/ver/1360/trunk/cometd-demo/src/main/java/org/webtide/demo/auction/Bid.java
+END
+Item.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/1360/trunk/cometd-demo/src/main/java/org/webtide/demo/auction/Item.java
+END

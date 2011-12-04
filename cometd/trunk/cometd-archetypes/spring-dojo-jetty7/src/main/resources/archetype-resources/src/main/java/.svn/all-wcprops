@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/1628/trunk/cometd-archetypes/spring-dojo-jetty7/src/main/resources/archetype-resources/src/main/java
+END
+BayeuxInitializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/!svn/ver/1628/trunk/cometd-archetypes/spring-dojo-jetty7/src/main/resources/archetype-resources/src/main/java/BayeuxInitializer.java
+END
+HelloService.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/!svn/ver/1595/trunk/cometd-archetypes/spring-dojo-jetty7/src/main/resources/archetype-resources/src/main/java/HelloService.java
+END

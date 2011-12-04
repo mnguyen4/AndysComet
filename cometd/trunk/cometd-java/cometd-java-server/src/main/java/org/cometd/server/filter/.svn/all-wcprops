@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/!svn/ver/1693/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/filter
+END
+DataFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/1360/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/filter/DataFilter.java
+END
+RegexFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/1360/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/filter/RegexFilter.java
+END
+NoMarkupFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/1360/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/filter/NoMarkupFilter.java
+END
+JSONDataFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/1693/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/filter/JSONDataFilter.java
+END
+DataFilterMessageListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/!svn/ver/1636/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/filter/DataFilterMessageListener.java
+END
+NoScriptsFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/!svn/ver/1360/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/filter/NoScriptsFilter.java
+END

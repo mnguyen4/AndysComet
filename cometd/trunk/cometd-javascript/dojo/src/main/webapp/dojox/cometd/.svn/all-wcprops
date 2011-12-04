@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/1360/trunk/cometd-javascript/dojo/src/main/webapp/dojox/cometd
+END
+reload.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/1360/trunk/cometd-javascript/dojo/src/main/webapp/dojox/cometd/reload.js
+END
+timesync.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/!svn/ver/1360/trunk/cometd-javascript/dojo/src/main/webapp/dojox/cometd/timesync.js
+END
+ack.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/1360/trunk/cometd-javascript/dojo/src/main/webapp/dojox/cometd/ack.js
+END
+timestamp.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/!svn/ver/1360/trunk/cometd-javascript/dojo/src/main/webapp/dojox/cometd/timestamp.js
+END

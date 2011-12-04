@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/1621/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/transport
+END
+BrowserMappingTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/1621/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/transport/BrowserMappingTest.java
+END
+JSONTransportMetaConnectDeliveryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/!svn/ver/1603/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/transport/JSONTransportMetaConnectDeliveryTest.java
+END

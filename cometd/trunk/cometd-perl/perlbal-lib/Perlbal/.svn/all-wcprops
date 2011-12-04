@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/perlbal/!svn/ver/885/trunk/lib/Perlbal
+END
+AIO.pm
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/perlbal/!svn/ver/687/trunk/lib/Perlbal/AIO.pm
+END
+ClientHTTPBase.pm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/perlbal/!svn/ver/861/trunk/lib/Perlbal/ClientHTTPBase.pm
+END
+Pool.pm
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/perlbal/!svn/ver/824/trunk/lib/Perlbal/Pool.pm
+END
+SocketSSL.pm
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/perlbal/!svn/ver/884/trunk/lib/Perlbal/SocketSSL.pm
+END
+HTTPHeaders.pm
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/perlbal/!svn/ver/869/trunk/lib/Perlbal/HTTPHeaders.pm
+END
+Util.pm
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/perlbal/!svn/ver/802/trunk/lib/Perlbal/Util.pm
+END
+ClientHTTP.pm
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/perlbal/!svn/ver/882/trunk/lib/Perlbal/ClientHTTP.pm
+END
+Test.pm
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/perlbal/!svn/ver/822/trunk/lib/Perlbal/Test.pm
+END
+ClientProxy.pm
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/perlbal/!svn/ver/882/trunk/lib/Perlbal/ClientProxy.pm
+END
+CommandContext.pm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/perlbal/!svn/ver/687/trunk/lib/Perlbal/CommandContext.pm
+END
+BackendHTTP.pm
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/perlbal/!svn/ver/856/trunk/lib/Perlbal/BackendHTTP.pm
+END
+ChunkedUploadState.pm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/perlbal/!svn/ver/666/trunk/lib/Perlbal/ChunkedUploadState.pm
+END
+ClientManage.pm
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/perlbal/!svn/ver/798/trunk/lib/Perlbal/ClientManage.pm
+END
+ManageCommand.pm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/perlbal/!svn/ver/687/trunk/lib/Perlbal/ManageCommand.pm
+END
+Socket.pm
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/perlbal/!svn/ver/875/trunk/lib/Perlbal/Socket.pm
+END
+UploadListener.pm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/perlbal/!svn/ver/763/trunk/lib/Perlbal/UploadListener.pm
+END
+TCPListener.pm
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/perlbal/!svn/ver/831/trunk/lib/Perlbal/TCPListener.pm
+END
+Service.pm
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/perlbal/!svn/ver/885/trunk/lib/Perlbal/Service.pm
+END
+ReproxyManager.pm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/perlbal/!svn/ver/687/trunk/lib/Perlbal/ReproxyManager.pm
+END
+Cache.pm
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/perlbal/!svn/ver/830/trunk/lib/Perlbal/Cache.pm
+END

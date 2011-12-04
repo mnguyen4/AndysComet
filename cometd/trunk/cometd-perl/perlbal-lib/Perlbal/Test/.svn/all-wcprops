@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/perlbal/!svn/ver/853/trunk/lib/Perlbal/Test
+END
+WebServer.pm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/perlbal/!svn/ver/853/trunk/lib/Perlbal/Test/WebServer.pm
+END
+WebClient.pm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/perlbal/!svn/ver/740/trunk/lib/Perlbal/Test/WebClient.pm
+END

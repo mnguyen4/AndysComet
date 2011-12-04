@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/src/!svn/ver/23844/dojox/trunk/cometd
+END
+RestChannels.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/src/!svn/ver/23844/dojox/trunk/cometd/RestChannels.js
+END
+_base.js
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/src/!svn/ver/23844/dojox/trunk/cometd/_base.js
+END
+longPollTransportFormEncoded.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/src/!svn/ver/23844/dojox/trunk/cometd/longPollTransportFormEncoded.js
+END
+HttpChannels.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/src/!svn/ver/23844/dojox/trunk/cometd/HttpChannels.js
+END
+timesync.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/src/!svn/ver/23844/dojox/trunk/cometd/timesync.js
+END
+ack.js
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/src/!svn/ver/23844/dojox/trunk/cometd/ack.js
+END
+longPollTransportJsonEncoded.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/src/!svn/ver/23844/dojox/trunk/cometd/longPollTransportJsonEncoded.js
+END
+callbackPollTransport.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/src/!svn/ver/23844/dojox/trunk/cometd/callbackPollTransport.js
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/src/!svn/ver/11780/dojox/trunk/cometd/README
+END
+longPollTransport.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/src/!svn/ver/13956/dojox/trunk/cometd/longPollTransport.js
+END
+timestamp.js
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/src/!svn/ver/14182/dojox/trunk/cometd/timestamp.js
+END

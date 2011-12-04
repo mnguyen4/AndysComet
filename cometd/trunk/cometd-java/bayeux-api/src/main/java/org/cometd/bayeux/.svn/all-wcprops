@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/!svn/ver/1602/trunk/cometd-java/bayeux-api/src/main/java/org/cometd/bayeux
+END
+Session.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/1486/trunk/cometd-java/bayeux-api/src/main/java/org/cometd/bayeux/Session.java
+END
+Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/1498/trunk/cometd-java/bayeux-api/src/main/java/org/cometd/bayeux/Message.java
+END
+ChannelId.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/!svn/ver/1502/trunk/cometd-java/bayeux-api/src/main/java/org/cometd/bayeux/ChannelId.java
+END
+Channel.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/1487/trunk/cometd-java/bayeux-api/src/main/java/org/cometd/bayeux/Channel.java
+END
+Transport.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/!svn/ver/1360/trunk/cometd-java/bayeux-api/src/main/java/org/cometd/bayeux/Transport.java
+END
+Bayeux.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/!svn/ver/1360/trunk/cometd-java/bayeux-api/src/main/java/org/cometd/bayeux/Bayeux.java
+END

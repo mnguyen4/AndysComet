@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/1601/trunk/cometd-java/cometd-java-server/src/main/resources/org/cometd/server/jmx
+END
+BayeuxServerImpl-mbean.properties
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/!svn/ver/1601/trunk/cometd-java/cometd-java-server/src/main/resources/org/cometd/server/jmx/BayeuxServerImpl-mbean.properties
+END

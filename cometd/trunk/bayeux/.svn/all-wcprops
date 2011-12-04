@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/!svn/ver/1576/trunk/bayeux
+END
+protocol.txt
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/1360/trunk/bayeux/protocol.txt
+END
+bayeux.html
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/1360/trunk/bayeux/bayeux.html
+END
+bayeux.png
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/1360/trunk/bayeux/bayeux.png
+END
+intermittent-polling.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/1360/trunk/bayeux/intermittent-polling.pdf
+END
+streaming.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/1360/trunk/bayeux/streaming.pdf
+END
+bayeux.json
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/1576/trunk/bayeux/bayeux.json
+END
+dojo.js
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/!svn/ver/1360/trunk/bayeux/dojo.js
+END
+long-polling.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/1360/trunk/bayeux/long-polling.pdf
+END
+bayeux_error_codes.json
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/1576/trunk/bayeux/bayeux_error_codes.json
+END

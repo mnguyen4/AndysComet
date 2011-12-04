@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/sprocket/!svn/ver/302/trunk/Sprocket/lib/Sprocket
+END
+Server.pm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/sprocket/!svn/ver/241/trunk/Sprocket/lib/Sprocket/Server.pm
+END
+AIO.pm
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/sprocket/!svn/ver/294/trunk/Sprocket/lib/Sprocket/AIO.pm
+END
+Common.pm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/sprocket/!svn/ver/281/trunk/Sprocket/lib/Sprocket/Common.pm
+END
+Base.pm
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/sprocket/!svn/ver/302/trunk/Sprocket/lib/Sprocket/Base.pm
+END
+Client.pm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/sprocket/!svn/ver/276/trunk/Sprocket/lib/Sprocket/Client.pm
+END
+Plugin.pm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/sprocket/!svn/ver/226/trunk/Sprocket/lib/Sprocket/Plugin.pm
+END
+Spread.pm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/sprocket/!svn/ver/207/trunk/Sprocket/lib/Sprocket/Spread.pm
+END
+Connection.pm
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/sprocket/!svn/ver/297/trunk/Sprocket/lib/Sprocket/Connection.pm
+END
+Event.pm
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/sprocket/!svn/ver/180/trunk/Sprocket/lib/Sprocket/Event.pm
+END
+Session.pm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/sprocket/!svn/ver/302/trunk/Sprocket/lib/Sprocket/Session.pm
+END

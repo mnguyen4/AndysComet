@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/!svn/ver/1693/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/ext
+END
+ArrayIdQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/1360/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/ext/ArrayIdQueue.java
+END
+TimestampExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/!svn/ver/1360/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/ext/TimestampExtension.java
+END
+TimesyncExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/1360/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/ext/TimesyncExtension.java
+END
+AcknowledgedMessagesClientExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/!svn/ver/1693/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/ext/AcknowledgedMessagesClientExtension.java
+END
+AcknowledgedMessagesExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/!svn/ver/1693/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/ext/AcknowledgedMessagesExtension.java
+END

@@ -1,0 +1,86 @@
+10
+
+dir
+1693
+http://svn.cometd.com/trunk/cometd-java
+http://svn.cometd.com
+
+
+
+2011-04-20T16:22:51.521619Z
+1693
+sbordet
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+3f0894df-830e-0410-bb9a-a3a9c902c5bb
+
+cometd-java-common
+dir
+
+bayeux-api
+dir
+
+cometd-java-annotations
+dir
+
+cometd-java-client
+dir
+
+cometd-java-examples
+dir
+
+pom.xml
+file
+
+
+
+
+2011-04-20T18:45:37.000000Z
+1aca1173e55d9364be9cfe5c2003e836
+2011-04-17T10:45:21.673224Z
+1684
+gregw
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1305
+
+cometd-java-oort
+dir
+
+cometd-websocket-jetty
+dir
+
+cometd-java-server
+dir
+

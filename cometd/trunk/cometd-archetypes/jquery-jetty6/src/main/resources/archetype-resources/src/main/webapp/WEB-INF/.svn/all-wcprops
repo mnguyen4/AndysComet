@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/!svn/ver/1360/trunk/cometd-archetypes/jquery-jetty6/src/main/resources/archetype-resources/src/main/webapp/WEB-INF
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/!svn/ver/1360/trunk/cometd-archetypes/jquery-jetty6/src/main/resources/archetype-resources/src/main/webapp/WEB-INF/web.xml
+END

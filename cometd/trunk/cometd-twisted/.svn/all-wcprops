@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/!svn/ver/1361/trunk/cometd-twisted
+END
+setup_dependencies.sh
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/1361/trunk/cometd-twisted/setup_dependencies.sh
+END
+cometd.tac
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/1361/trunk/cometd-twisted/cometd.tac
+END
+bayeux_client.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/1361/trunk/cometd-twisted/bayeux_client.py
+END
+bayeux_unit_test.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/1361/trunk/cometd-twisted/bayeux_unit_test.py
+END
+bayeux.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/1361/trunk/cometd-twisted/bayeux.py
+END
+comet_js_headers.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/1361/trunk/cometd-twisted/comet_js_headers.py
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/1361/trunk/cometd-twisted/setup.py
+END
+handy.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/1361/trunk/cometd-twisted/handy.py
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/1361/trunk/cometd-twisted/README
+END
+setup.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/1361/trunk/cometd-twisted/setup.cfg
+END
+twisted-cometd-client.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/1361/trunk/cometd-twisted/twisted-cometd-client.py
+END
+cometd.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/1361/trunk/cometd-twisted/cometd.py
+END
+cometd_session.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/1361/trunk/cometd-twisted/cometd_session.py
+END
+bayeux_config.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/1361/trunk/cometd-twisted/bayeux_config.py
+END
+bayeux_server.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/1361/trunk/cometd-twisted/bayeux_server.py
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/1361/trunk/cometd-twisted/index.html
+END
+MANIFEST.in
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/1361/trunk/cometd-twisted/MANIFEST.in
+END

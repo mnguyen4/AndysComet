@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/1688/trunk/cometd-java/cometd-java-oort/src/test/java/org/cometd/oort
+END
+OortObserveCometTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/1677/trunk/cometd-java/cometd-java-oort/src/test/java/org/cometd/oort/OortObserveCometTest.java
+END
+OortObserveChannelTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/1688/trunk/cometd-java/cometd-java-oort/src/test/java/org/cometd/oort/OortObserveChannelTest.java
+END
+OortTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/1688/trunk/cometd-java/cometd-java-oort/src/test/java/org/cometd/oort/OortTest.java
+END
+OortChatService.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/1665/trunk/cometd-java/cometd-java-oort/src/test/java/org/cometd/oort/OortChatService.java
+END
+SetiTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/1688/trunk/cometd-java/cometd-java-oort/src/test/java/org/cometd/oort/SetiTest.java
+END
+OortDemo.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/1677/trunk/cometd-java/cometd-java-oort/src/test/java/org/cometd/oort/OortDemo.java
+END
+OortDemoServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/1597/trunk/cometd-java/cometd-java-oort/src/test/java/org/cometd/oort/OortDemoServlet.java
+END

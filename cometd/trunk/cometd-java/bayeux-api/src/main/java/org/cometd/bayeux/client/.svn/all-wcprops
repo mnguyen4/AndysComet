@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/1360/trunk/cometd-java/bayeux-api/src/main/java/org/cometd/bayeux/client
+END
+ClientSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/1360/trunk/cometd-java/bayeux-api/src/main/java/org/cometd/bayeux/client/ClientSession.java
+END
+ClientSessionChannel.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/1360/trunk/cometd-java/bayeux-api/src/main/java/org/cometd/bayeux/client/ClientSessionChannel.java
+END

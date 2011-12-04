@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/!svn/ver/1360/trunk/cometd-demo/src/main/java/org/webtide/demo/auction/dao
+END
+CategoryDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/1360/trunk/cometd-demo/src/main/java/org/webtide/demo/auction/dao/CategoryDao.java
+END
+AuctionDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/1360/trunk/cometd-demo/src/main/java/org/webtide/demo/auction/dao/AuctionDao.java
+END
+BidderDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/!svn/ver/1360/trunk/cometd-demo/src/main/java/org/webtide/demo/auction/dao/BidderDao.java
+END

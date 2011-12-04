@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/1607/trunk/cometd-java/cometd-java-annotations/src/test/java/org/cometd/java/annotation
+END
+ServerAnnotationProcessorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/!svn/ver/1597/trunk/cometd-java/cometd-java-annotations/src/test/java/org/cometd/java/annotation/ServerAnnotationProcessorTest.java
+END
+ClientAnnotationProcessorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/!svn/ver/1607/trunk/cometd-java/cometd-java-annotations/src/test/java/org/cometd/java/annotation/ClientAnnotationProcessorTest.java
+END

@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/perlbal/!svn/ver/860/trunk/lib/Perlbal/Plugin
+END
+LazyCDN.pm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/perlbal/!svn/ver/592/trunk/lib/Perlbal/Plugin/LazyCDN.pm
+END
+Vpaths.pm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/perlbal/!svn/ver/706/trunk/lib/Perlbal/Plugin/Vpaths.pm
+END
+Cgilike.pm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/perlbal/!svn/ver/774/trunk/lib/Perlbal/Plugin/Cgilike.pm
+END
+Queues.pm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/perlbal/!svn/ver/371/trunk/lib/Perlbal/Plugin/Queues.pm
+END
+AutoRemoveLeadingDir.pm
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/perlbal/!svn/ver/472/trunk/lib/Perlbal/Plugin/AutoRemoveLeadingDir.pm
+END
+Palimg.pm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/perlbal/!svn/ver/783/trunk/lib/Perlbal/Plugin/Palimg.pm
+END
+AtomStream.pm
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/perlbal/!svn/ver/580/trunk/lib/Perlbal/Plugin/AtomStream.pm
+END
+MaxContentLength.pm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/perlbal/!svn/ver/811/trunk/lib/Perlbal/Plugin/MaxContentLength.pm
+END
+Include.pm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/perlbal/!svn/ver/793/trunk/lib/Perlbal/Plugin/Include.pm
+END
+Vhosts.pm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/perlbal/!svn/ver/824/trunk/lib/Perlbal/Plugin/Vhosts.pm
+END
+Highpri.pm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/perlbal/!svn/ver/774/trunk/lib/Perlbal/Plugin/Highpri.pm
+END
+AtomInject.pm
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/perlbal/!svn/ver/580/trunk/lib/Perlbal/Plugin/AtomInject.pm
+END
+Stats.pm
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/perlbal/!svn/ver/774/trunk/lib/Perlbal/Plugin/Stats.pm
+END
+EchoService.pm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/perlbal/!svn/ver/774/trunk/lib/Perlbal/Plugin/EchoService.pm
+END
+NotModified.pm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/perlbal/!svn/ver/636/trunk/lib/Perlbal/Plugin/NotModified.pm
+END
+Redirect.pm
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/perlbal/!svn/ver/860/trunk/lib/Perlbal/Plugin/Redirect.pm
+END
+AccessControl.pm
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/perlbal/!svn/ver/825/trunk/lib/Perlbal/Plugin/AccessControl.pm
+END

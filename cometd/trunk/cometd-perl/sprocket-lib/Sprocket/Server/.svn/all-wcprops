@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/sprocket/!svn/ver/193/trunk/Sprocket/lib/Sprocket/Server
+END
+PreFork.pm
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/sprocket/!svn/ver/166/trunk/Sprocket/lib/Sprocket/Server/PreFork.pm
+END
+FDreceiver.pm
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/sprocket/!svn/ver/193/trunk/Sprocket/lib/Sprocket/Server/FDreceiver.pm
+END
+UNIX.pm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/sprocket/!svn/ver/177/trunk/Sprocket/lib/Sprocket/Server/UNIX.pm
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/1362/trunk/cometd-perl/tools
+END
+setup_dependencies.sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/1362/trunk/cometd-perl/tools/setup_dependencies.sh
+END
+manifest.pl
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/1362/trunk/cometd-perl/tools/manifest.pl
+END
+simple_http.pl
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/1362/trunk/cometd-perl/tools/simple_http.pl
+END
+simple_test.pl
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/1362/trunk/cometd-perl/tools/simple_test.pl
+END
+noop_http.pl
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/1362/trunk/cometd-perl/tools/noop_http.pl
+END
+atomstream.pl
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/1362/trunk/cometd-perl/tools/atomstream.pl
+END
+injectevent.pl
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/1362/trunk/cometd-perl/tools/injectevent.pl
+END
+mc.pl
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/1362/trunk/cometd-perl/tools/mc.pl
+END
+http_proxy.pl
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/1362/trunk/cometd-perl/tools/http_proxy.pl
+END
+httpd.pl
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/1362/trunk/cometd-perl/tools/httpd.pl
+END

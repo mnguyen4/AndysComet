@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/1693/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/transport
+END
+LongPollingTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/!svn/ver/1693/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/transport/LongPollingTransport.java
+END
+JSONPTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/!svn/ver/1412/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/transport/JSONPTransport.java
+END
+JSONTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/1603/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/transport/JSONTransport.java
+END
+HttpTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/1505/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/transport/HttpTransport.java
+END

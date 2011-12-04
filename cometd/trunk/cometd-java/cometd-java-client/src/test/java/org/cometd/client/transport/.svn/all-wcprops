@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/1639/trunk/cometd-java/cometd-java-client/src/test/java/org/cometd/client/transport
+END
+LongPollingTransportTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/!svn/ver/1639/trunk/cometd-java/cometd-java-client/src/test/java/org/cometd/client/transport/LongPollingTransportTest.java
+END

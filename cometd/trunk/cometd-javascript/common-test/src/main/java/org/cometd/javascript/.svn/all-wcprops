@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/main/java/org/cometd/javascript
+END
+JavaScriptThreadModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/!svn/ver/1360/trunk/cometd-javascript/common-test/src/main/java/org/cometd/javascript/JavaScriptThreadModel.java
+END
+ScriptInjectionEventListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/!svn/ver/1644/trunk/cometd-javascript/common-test/src/main/java/org/cometd/javascript/ScriptInjectionEventListener.java
+END
+Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/main/java/org/cometd/javascript/Utils.java
+END
+HttpCookieStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/1360/trunk/cometd-javascript/common-test/src/main/java/org/cometd/javascript/HttpCookieStore.java
+END
+ThreadModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/1360/trunk/cometd-javascript/common-test/src/main/java/org/cometd/javascript/ThreadModel.java
+END
+XMLHttpRequestClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/1437/trunk/cometd-javascript/common-test/src/main/java/org/cometd/javascript/XMLHttpRequestClient.java
+END
+TestProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/main/java/org/cometd/javascript/TestProvider.java
+END
+Latch.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/1360/trunk/cometd-javascript/common-test/src/main/java/org/cometd/javascript/Latch.java
+END
+XMLHttpRequestExchange.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/1644/trunk/cometd-javascript/common-test/src/main/java/org/cometd/javascript/XMLHttpRequestExchange.java
+END

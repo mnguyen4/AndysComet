@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/1693/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server
+END
+CometdServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/1691/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/CometdServlet.java
+END
+LocalSessionImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/1462/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/LocalSessionImpl.java
+END
+ServerChannelImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/1672/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/ServerChannelImpl.java
+END
+AbstractService.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/1605/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/AbstractService.java
+END
+BayeuxServerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/1693/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/BayeuxServerImpl.java
+END
+AbstractServerTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/1558/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/AbstractServerTransport.java
+END
+DefaultSecurityPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/1447/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/DefaultSecurityPolicy.java
+END
+ServerSessionImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/1693/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/ServerSessionImpl.java
+END
+ServerMessageImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/1557/trunk/cometd-java/cometd-java-server/src/main/java/org/cometd/server/ServerMessageImpl.java
+END

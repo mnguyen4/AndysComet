@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/1657/trunk/cometd-javascript/common/src/main/js/org/cometd
+END
+RequestTransport.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/1634/trunk/cometd-javascript/common/src/main/js/org/cometd/RequestTransport.js
+END
+TransportRegistry.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/1657/trunk/cometd-javascript/common/src/main/js/org/cometd/TransportRegistry.js
+END
+cometd-namespace.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/1536/trunk/cometd-javascript/common/src/main/js/org/cometd/cometd-namespace.js
+END
+Cometd.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/1657/trunk/cometd-javascript/common/src/main/js/org/cometd/Cometd.js
+END
+Transport.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/1634/trunk/cometd-javascript/common/src/main/js/org/cometd/Transport.js
+END
+CallbackPollingTransport.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/1634/trunk/cometd-javascript/common/src/main/js/org/cometd/CallbackPollingTransport.js
+END
+Utils.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/!svn/ver/1536/trunk/cometd-javascript/common/src/main/js/org/cometd/Utils.js
+END
+LongPollingTransport.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/1634/trunk/cometd-javascript/common/src/main/js/org/cometd/LongPollingTransport.js
+END
+cometd-header.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/!svn/ver/1536/trunk/cometd-javascript/common/src/main/js/org/cometd/cometd-header.js
+END
+cometd-json.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/1536/trunk/cometd-javascript/common/src/main/js/org/cometd/cometd-json.js
+END
+WebSocketTransport.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/!svn/ver/1634/trunk/cometd-javascript/common/src/main/js/org/cometd/WebSocketTransport.js
+END

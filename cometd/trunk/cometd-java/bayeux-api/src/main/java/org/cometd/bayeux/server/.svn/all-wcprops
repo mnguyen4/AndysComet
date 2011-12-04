@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/1602/trunk/cometd-java/bayeux-api/src/main/java/org/cometd/bayeux/server
+END
+ServerChannel.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/1493/trunk/cometd-java/bayeux-api/src/main/java/org/cometd/bayeux/server/ServerChannel.java
+END
+ConfigurableServerChannel.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/!svn/ver/1503/trunk/cometd-java/bayeux-api/src/main/java/org/cometd/bayeux/server/ConfigurableServerChannel.java
+END
+BayeuxContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/1505/trunk/cometd-java/bayeux-api/src/main/java/org/cometd/bayeux/server/BayeuxContext.java
+END
+ServerTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/1602/trunk/cometd-java/bayeux-api/src/main/java/org/cometd/bayeux/server/ServerTransport.java
+END
+BayeuxServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/1498/trunk/cometd-java/bayeux-api/src/main/java/org/cometd/bayeux/server/BayeuxServer.java
+END
+SecurityPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/1447/trunk/cometd-java/bayeux-api/src/main/java/org/cometd/bayeux/server/SecurityPolicy.java
+END
+ServerSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/1458/trunk/cometd-java/bayeux-api/src/main/java/org/cometd/bayeux/server/ServerSession.java
+END
+ServerMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/1490/trunk/cometd-java/bayeux-api/src/main/java/org/cometd/bayeux/server/ServerMessage.java
+END
+Authorizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/1510/trunk/cometd-java/bayeux-api/src/main/java/org/cometd/bayeux/server/Authorizer.java
+END
+LocalSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/1360/trunk/cometd-java/bayeux-api/src/main/java/org/cometd/bayeux/server/LocalSession.java
+END

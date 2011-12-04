@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/1639/trunk/cometd-java/cometd-java-common/src/main/java/org/cometd/common
+END
+AbstractTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/1639/trunk/cometd-java/cometd-java-common/src/main/java/org/cometd/common/AbstractTransport.java
+END
+ChannelId.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/1447/trunk/cometd-java/cometd-java-common/src/main/java/org/cometd/common/ChannelId.java
+END
+AbstractClientSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/1575/trunk/cometd-java/cometd-java-common/src/main/java/org/cometd/common/AbstractClientSession.java
+END
+HashMapMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/1560/trunk/cometd-java/cometd-java-common/src/main/java/org/cometd/common/HashMapMessage.java
+END

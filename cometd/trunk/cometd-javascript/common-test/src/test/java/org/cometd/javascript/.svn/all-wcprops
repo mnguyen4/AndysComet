@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/!svn/ver/1657/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript
+END
+CometDParametersTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDParametersTest.java
+END
+CometDMessagesAfterFailedHandshakeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDMessagesAfterFailedHandshakeTest.java
+END
+CometDPublishTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDPublishTest.java
+END
+CometDDisconnectInListenersTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDDisconnectInListenersTest.java
+END
+CometDInitDisconnectTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDInitDisconnectTest.java
+END
+CometDPublishHeldUntilHandshookTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDPublishHeldUntilHandshookTest.java
+END
+CometDPublishFailureTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDPublishFailureTest.java
+END
+CometDMaxNetworkDelayTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDMaxNetworkDelayTest.java
+END
+CometDURLPathTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDURLPathTest.java
+END
+CometDMaxNetworkDelayLongPollTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDMaxNetworkDelayLongPollTest.java
+END
+CometDSubscribeFailureTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDSubscribeFailureTest.java
+END
+CometDDeliverTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDDeliverTest.java
+END
+CometDCrossOriginReHandshakeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/!svn/ver/1655/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDCrossOriginReHandshakeTest.java
+END
+CometDDisconnectFailureTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDDisconnectFailureTest.java
+END
+AbstractCometDTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/1655/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/AbstractCometDTest.java
+END
+CometDDisconnectSynchronousTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDDisconnectSynchronousTest.java
+END
+CometDConnectTemporaryFailureTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDConnectTemporaryFailureTest.java
+END
+CometDBatchPublishTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDBatchPublishTest.java
+END
+CometDAutoBatchTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDAutoBatchTest.java
+END
+CometDHandshakePropsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDHandshakePropsTest.java
+END
+CometDEmptyResponseTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDEmptyResponseTest.java
+END
+CometDHandshakeDynamicPropsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDHandshakeDynamicPropsTest.java
+END
+CometDCallbackPollingTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDCallbackPollingTest.java
+END
+CometDListenerExceptionCallbackTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDListenerExceptionCallbackTest.java
+END
+CometDMultiPublishTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDMultiPublishTest.java
+END
+CometDSubscribeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDSubscribeTest.java
+END
+CometDRedeployTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDRedeployTest.java
+END
+CometDCharsetTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDCharsetTest.java
+END
+CometDUnsubscribeFailureTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDUnsubscribeFailureTest.java
+END
+CometDTransportTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDTransportTest.java
+END
+CometDHandshakeFailureTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDHandshakeFailureTest.java
+END
+CometDConnectFailureTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDConnectFailureTest.java
+END
+CometDCrossOriginTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/!svn/ver/1645/trunk/cometd-javascript/common-test/src/test/java/org/cometd/javascript/CometDCrossOriginTest.java
+END

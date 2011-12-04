@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/1639/trunk/cometd-java/cometd-java-client/src/main/java/org/cometd/client/transport
+END
+LongPollingTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/!svn/ver/1639/trunk/cometd-java/cometd-java-client/src/main/java/org/cometd/client/transport/LongPollingTransport.java
+END
+TransportListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/1444/trunk/cometd-java/cometd-java-client/src/main/java/org/cometd/client/transport/TransportListener.java
+END
+TransportRegistry.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/1430/trunk/cometd-java/cometd-java-client/src/main/java/org/cometd/client/transport/TransportRegistry.java
+END
+ClientTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/1639/trunk/cometd-java/cometd-java-client/src/main/java/org/cometd/client/transport/ClientTransport.java
+END
+HttpClientTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/!svn/ver/1617/trunk/cometd-java/cometd-java-client/src/main/java/org/cometd/client/transport/HttpClientTransport.java
+END
+TransportException.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/1360/trunk/cometd-java/cometd-java-client/src/main/java/org/cometd/client/transport/TransportException.java
+END

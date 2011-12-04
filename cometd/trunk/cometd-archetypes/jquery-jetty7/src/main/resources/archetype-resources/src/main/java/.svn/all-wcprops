@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/1360/trunk/cometd-archetypes/jquery-jetty7/src/main/resources/archetype-resources/src/main/java
+END
+BayeuxInitializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/!svn/ver/1360/trunk/cometd-archetypes/jquery-jetty7/src/main/resources/archetype-resources/src/main/java/BayeuxInitializer.java
+END
+HelloService.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/!svn/ver/1360/trunk/cometd-archetypes/jquery-jetty7/src/main/resources/archetype-resources/src/main/java/HelloService.java
+END

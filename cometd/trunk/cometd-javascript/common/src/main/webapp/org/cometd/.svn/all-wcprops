@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/1591/trunk/cometd-javascript/common/src/main/webapp/org/cometd
+END
+TimeSyncExtension.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/1586/trunk/cometd-javascript/common/src/main/webapp/org/cometd/TimeSyncExtension.js
+END
+AckExtension.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/1360/trunk/cometd-javascript/common/src/main/webapp/org/cometd/AckExtension.js
+END
+TimeStampExtension.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/1360/trunk/cometd-javascript/common/src/main/webapp/org/cometd/TimeStampExtension.js
+END
+ReloadExtension.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/1591/trunk/cometd-javascript/common/src/main/webapp/org/cometd/ReloadExtension.js
+END

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/1675/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server
+END
+ServerChannelTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/1557/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/ServerChannelTest.java
+END
+ServerShutdownTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/1404/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/ServerShutdownTest.java
+END
+AbstractBayeuxClientServerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/!svn/ver/1404/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/AbstractBayeuxClientServerTest.java
+END
+AbstractBayeuxServerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/!svn/ver/1603/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/AbstractBayeuxServerTest.java
+END
+HandshakeFailureCustomResponseTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/!svn/ver/1640/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/HandshakeFailureCustomResponseTest.java
+END
+SpringFrameworkConfigurationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/!svn/ver/1412/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/SpringFrameworkConfigurationTest.java
+END
+BayeuxServerCreationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/!svn/ver/1675/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/BayeuxServerCreationTest.java
+END
+ServerRedeployTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/1404/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/ServerRedeployTest.java
+END
+BayeuxServiceMetaNotificationsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/!svn/ver/1408/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/BayeuxServiceMetaNotificationsTest.java
+END
+BadJSONTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/1408/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/BadJSONTest.java
+END
+BayeuxServerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/1498/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/BayeuxServerTest.java
+END
+ConcurrentDisconnectSubscribePublishTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/!svn/ver/1633/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/ConcurrentDisconnectSubscribePublishTest.java
+END
+ConcurrentHandshakeFailureSubscribePublishTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/!svn/ver/1635/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/ConcurrentHandshakeFailureSubscribePublishTest.java
+END
+BayeuxServiceWithThreadPoolTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/!svn/ver/1404/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/BayeuxServiceWithThreadPoolTest.java
+END
+ServerMessageImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/1596/trunk/cometd-java/cometd-java-server/src/test/java/org/cometd/server/ServerMessageImplTest.java
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/1693/trunk/cometd-java/cometd-java-oort/src/main/java/org/cometd/oort
+END
+Oort.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/1693/trunk/cometd-java/cometd-java-oort/src/main/java/org/cometd/oort/Oort.java
+END
+Seti.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/1693/trunk/cometd-java/cometd-java-oort/src/main/java/org/cometd/oort/Seti.java
+END
+OortServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/1686/trunk/cometd-java/cometd-java-oort/src/main/java/org/cometd/oort/OortServlet.java
+END
+SetiServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/1677/trunk/cometd-java/cometd-java-oort/src/main/java/org/cometd/oort/SetiServlet.java
+END
+OortComet.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/1677/trunk/cometd-java/cometd-java-oort/src/main/java/org/cometd/oort/OortComet.java
+END
