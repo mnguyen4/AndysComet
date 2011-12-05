@@ -88,37 +88,18 @@ var publish_flag = true; //a flag that will enable/disable publishing
 								publish_flag = true; //set back to true after we are done rendering
 								break;
 							case 2: // An object is selected
-								publish_flag = false; //set to false so that it doesn't publish
-								//var data = andes.convert.andesToDrawing(draw);
-								//data.attr(andes.defaults["neighborlocked"]);
-								//var draw = andes.convert.drawingToAndes(data);
-								//andes.drawing.handleServerActions([draw]);
-								publish_flag = true; //set back to true after we are done rendering
+								publish_flag = true;
 								break;
 							case 3: // An object is deselected
-								//publish_flag = true; 
 								andes.drawing.handleServerActions([draw]);
-								//publish_flag = true;
-								break;
-							//case 4: // The object is locked
-								//publish_flag = false;
-								
-								//andes.help.echoSingle("The object you are trying to modify is currently in use.", "SERVER");
-								//cometd.publish("/chat/" + getUrlVars()["p"] + getUrlVars()["s"])
-								//alert("The object you are trying to modify is currently in use.");
-								// deselect object - do not publish
-								//var data = andes.convert.andesToDrawing(draw);
-								//dojox.drawing.manager.deselectItem(data);
-								//var data = andes.convert.andesToDrawing(draw);
-								//items[data.id].attr("unknown");
-								//publish_flag = true;
-								//break;
-							case 5: // The object is unlocked, need to execute action (should server change action to 1?)
 								break;
 							default:
 								break;
 						}
 					} else if (from == this._username && flag == 4) {
+						/*
+						 * This means there was a collision with the object that you are attempting to modify.
+						 */
 						console.warn(this._username, ", that object is locked.");
 						andes.help.echoSingle("The object you are trying to modify is currently in use.", "SERVER");
 					}
@@ -126,9 +107,8 @@ var publish_flag = true; //a flag that will enable/disable publishing
 			},
 			
 			subscribe: function() {
-				//subscribe to channel /whiteboard
-				cometd.subscribe("/whiteboard/drawing/" + getUrlVars()["p"] + getUrlVars()["s"], this, "receive");
-				cometd.subscribe("/whiteboard/conflict/" + getUrlVars()["p"] + getUrlVars()["s"], this, "receive");
+				//subscribe to channel /whiteboard/*
+				cometd.subscribe("/whiteboard/drawing/" + getUrlVars()["s"] + getUrlVars()["p"] + getUrlVars()["e"], this, "receive");
 			}
 		};
 		whiteboard.subscribe();
@@ -141,10 +121,9 @@ var publish_flag = true; //a flag that will enable/disable publishing
 				console.warn("Label double click connected");
 				dojo.connect(_drawing.stencils, "onLabelDoubleClick", andes.drawing, "onLabelDoubleClick");
 				
-				// JVM: Code for collision detection
+				// Code for collision detection
 				dojo.connect(_drawing.stencils, "onSelect", andes.drawing, "onSelected");
 				dojo.connect(_drawing.stencils, "onDeselect", andes.drawing, "onDeselected");
-				dojo.connect(_drawing.mouse, "onDown", andes.drawing, "onRightClick"); // JVM: Matt's tutor attempt
 				
 			}
 		});
@@ -317,11 +296,11 @@ var publish_flag = true; //a flag that will enable/disable publishing
 				}
 				//publish the data to other clients (need to send object's id here)
 				if(publish_flag) {
-				cometd.publish("/whiteboard/drawing/" + getUrlVars()["p"] + getUrlVars()["s"], {
-					user: getUrlVars() ["u"],
-					drawing: {action:"delete-object", id:item.id},
-					action: 1
-				});
+					cometd.publish("/whiteboard/drawing/" + getUrlVars()["s"] + getUrlVars()["p"] + getUrlVars()["e"], {
+						user: getUrlVars() ["u"],
+						drawing: {action:"delete-object", id:item.id},
+						action: 1
+					});
 				}
 			});
 			
@@ -337,11 +316,11 @@ var publish_flag = true; //a flag that will enable/disable publishing
 				this.save(data);
 
 				if(publish_flag) {
-				cometd.publish("/whiteboard/drawing/" + getUrlVars()["p"] + getUrlVars()["s"], {
-					user: getUrlVars() ["u"],
-					drawing: data,
-					action: 1
-				});
+					cometd.publish("/whiteboard/drawing/" + getUrlVars()["s"] + getUrlVars()["p"] + getUrlVars()["e"], {
+						user: getUrlVars() ["u"],
+						drawing: data,
+						action: 1
+					});
 				}
 			});
 			
@@ -353,11 +332,11 @@ var publish_flag = true; //a flag that will enable/disable publishing
 				
 				//publish the data to other clients
 				if(publish_flag) {
-				cometd.publish("/whiteboard/drawing/" + getUrlVars()["p"] + getUrlVars()["s"], {
-					user: getUrlVars() ["u"],
-					drawing: data,
-					action: 1
-				});
+					cometd.publish("/whiteboard/drawing/" + getUrlVars()["s"] + getUrlVars()["p"] + getUrlVars()["e"], {
+						user: getUrlVars() ["u"],
+						drawing: data,
+						action: 1
+					});
 				}
 			}
 		},
@@ -370,6 +349,7 @@ var publish_flag = true; //a flag that will enable/disable publishing
 		
 		
 		handleServerActions: function(data){
+			
 			// summary:
 			//	Handle objects returned from server.
 			//	Handles all returns, including open-problem
@@ -413,7 +393,6 @@ var publish_flag = true; //a flag that will enable/disable publishing
 				
 				if(obj.action =="new-object"){
 					var o = andes.convert.andesToDrawing(obj);
-					
 					var t = o.stencilType;
 					// o.stencilType includes:  text, image, line, rect, ellipse, vector
 					//                          textBlock (equation & statement), axes
@@ -473,6 +452,14 @@ var publish_flag = true; //a flag that will enable/disable publishing
 					
 				}else if(obj.action=="set-score"){
 					andes.help.score(obj.score);
+					// This will publish the score for other users.
+					if(publish_flag) {
+						cometd.publish("/whiteboard/drawing/" + getUrlVars()["s"] + getUrlVars()["p"] + getUrlVars()["e"], {
+							user: getUrlVars() ["u"],
+							drawing: obj,
+							action: 1
+						});
+					}
 					
 				}else if(obj.action=="new-user-dialog" && obj.text){
 					andes.error({
@@ -512,20 +499,6 @@ var publish_flag = true; //a flag that will enable/disable publishing
 					
 				}else if(obj.action=="log"){
 					// Log actions are ignored by client.
-				}else if (obj.action=="object-selected")
-				{
-					// JVM: What should I do here.
-					items[obj.id].mod = andes.defaults["neighborlocked"];
-					//alert("Did you know object-selected has an action handler?");
-					console.error("object-selected is trying to be handled."); // this is never called.
-					mods.push(obj);
-				}else if (obj.action=="object-deselected")
-				{
-					// JVM: What should I do here.
-					items[obj.id].mod = andes.defaults["unknown"];
-					//alert("Did you know object-selected has an action handler?");
-					console.error("object-deselected is trying to be handled."); // this is never called.
-					mods.push(obj);
 				}else{
 					console.warn("UNUSED ANDES OBJECT:", obj)
 				}
@@ -687,9 +660,6 @@ var publish_flag = true; //a flag that will enable/disable publishing
 		},
 		
 		onSelected: function(stencil){
-
-			// JVM: PROBLEM! Not all stencils are combo!
-			// JVM: Fixed in most cases. Equation still causes item.mod issue.
 			
 			console.info("Stencil: ", stencil);
 			var item;
@@ -698,17 +668,15 @@ var publish_flag = true; //a flag that will enable/disable publishing
 			{
 				item = items[stencil.combo.id];
 				
-				// Until we know server diagnosis, set to unknown.
+				/*// Until we know server diagnosis, set to unknown.
 				item.mod = true; // disable save to server, else we get a recursive call
-				item.attr(andes.defaults["unknown"]);
-				item.mod = false; // restore save to sever
+				// item.attr(andes.defaults["unknown"]);
+				item.mod = false; // restore save to sever*/
 				
 				var data = andes.convert.drawingToAndes(item, "object-selected"); // need to get actual action and instead set flag
-				//console.info("JVM: Save mod to server", data);
-				//this.save(data);
-				
+								
 				if(publish_flag) {
-					cometd.publish("/whiteboard/drawing/" + getUrlVars()["p"] + getUrlVars()["s"], {
+					cometd.publish("/whiteboard/drawing/" + getUrlVars()["s"] + getUrlVars()["p"] + getUrlVars()["e"], {
 						user: getUrlVars() ["u"],
 						drawing: data,
 						action: 2
@@ -725,25 +693,20 @@ var publish_flag = true; //a flag that will enable/disable publishing
 					item = items[stencil.id];
 					
 					
-				// Until we know server diagnosis, set to unknown.
+				/*// Until we know server diagnosis, set to unknown.
 				item.mod = true; // disable save to server, else we get a recursive call
-				item.attr(andes.defaults["unknown"]);
-				item.mod = false; // restore save to sever
+				// item.attr(andes.defaults["unknown"]);
+				item.mod = false; // restore save to sever*/
 				
 				var data = andes.convert.drawingToAndes(item, "object-selected"); // need to get actual action and instead set flag
-				//console.info("JVM: Save mod to server", data);
-				//this.save(data);
-				
-				
-	
 				
 				if(publish_flag) {
-					cometd.publish("/whiteboard/drawing/" + getUrlVars()["p"] + getUrlVars()["s"], {
+					cometd.publish("/whiteboard/drawing/" + getUrlVars()["s"] + getUrlVars()["p"] + getUrlVars()["e"], {
 						user: getUrlVars() ["u"],
 						drawing: data,
 						action: 2
 					});
-					}
+				}
 				
 
 			}
@@ -751,20 +714,15 @@ var publish_flag = true; //a flag that will enable/disable publishing
 			} else if (stencil.hasOwnProperty("shortType")) // TextBox
 			{
 				item = items[stencil.id];
-				// Until we know server diagnosis, set to unknown.
-			item.mod = true; // disable save to server, else we get a recursive call
-			item.attr(andes.defaults["unknown"]);
-			item.mod = false; // restore save to sever
+				/*// Until we know server diagnosis, set to unknown.
+				item.mod = true; // disable save to server, else we get a recursive call
+				// item.attr(andes.defaults["unknown"]);
+				item.mod = false; // restore save to sever*/
 			
 			var data = andes.convert.drawingToAndes(item, "object-selected"); // need to get actual action and instead set flag
-			//console.info("JVM: Save mod to server", data);
-			//this.save(data);
-			
-			
-
 			
 			if(publish_flag) {
-				cometd.publish("/whiteboard/drawing/" + getUrlVars()["p"] + getUrlVars()["s"], {
+				cometd.publish("/whiteboard/drawing/" + getUrlVars()["s"] + getUrlVars()["p"] + getUrlVars()["e"], {
 					user: getUrlVars() ["u"],
 					drawing: data,
 					action: 2
@@ -785,12 +743,10 @@ var publish_flag = true; //a flag that will enable/disable publishing
 				// Until we know server diagnosis, set to unknown.
 			
 			var data = andes.convert.drawingToAndes(item, "object-deselected"); // need to get actual action and instead set flag
-			//console.info("JVM: Save mod to server", data);
-			//this.save(data);
-			
+						
 			
 			if(publish_flag) {
-				cometd.publish("/whiteboard/drawing/" + getUrlVars()["p"] + getUrlVars()["s"], {
+				cometd.publish("/whiteboard/drawing/" + getUrlVars()["s"] + getUrlVars()["p"] + getUrlVars()["e"], {
 					user: getUrlVars() ["u"],
 					drawing: data,
 					action: 3
@@ -804,23 +760,21 @@ var publish_flag = true; //a flag that will enable/disable publishing
 				} else
 				{
 					item = items[stencil.id];
-						// Until we know server diagnosis, set to unknown.
-			item.mod = true; // disable save to server, else we get a recursive call
-			item.attr(andes.defaults["unknown"]);
-			item.mod = false; // restore save to sever
+					/*// Until we know server diagnosis, set to unknown.
+					item.mod = true; // disable save to server, else we get a recursive call
+					// item.attr(andes.defaults["unknown"]);
+					item.mod = false; // restore save to sever*/
 			
 			var data = andes.convert.drawingToAndes(item, "object-deselected"); // need to get actual action and instead set flag
-			//console.info("JVM: Save mod to server", data);
-			//this.save(data);
-			
+						
 			
 			if(publish_flag) {
-				cometd.publish("/whiteboard/drawing/" + getUrlVars()["p"] + getUrlVars()["s"], {
+				cometd.publish("/whiteboard/drawing/" + getUrlVars()["s"] + getUrlVars()["p"] + getUrlVars()["e"], {
 					user: getUrlVars() ["u"],
 					drawing: data,
 					action: 3
 				});
-				}
+			}
 				
 			
 			}
@@ -829,18 +783,16 @@ var publish_flag = true; //a flag that will enable/disable publishing
 			{
 				item = items[stencil.id];
 				
-				// Until we know server diagnosis, set to unknown.
-			item.mod = true; // disable save to server, else we get a recursive call
-			item.attr(andes.defaults["unknown"]);
-			item.mod = false; // restore save to sever
+				/*// Until we know server diagnosis, set to unknown.
+				item.mod = true; // disable save to server, else we get a recursive call
+				// item.attr(andes.defaults["unknown"]);
+				item.mod = false; // restore save to sever*/
 			
 			var data = andes.convert.drawingToAndes(item, "object-deselected"); // need to get actual action and instead set flag
-			//console.info("JVM: Save mod to server", data);
-			//this.save(data);
-			
+						
 			
 			if(publish_flag) {
-				cometd.publish("/whiteboard/drawing/" + getUrlVars()["p"] + getUrlVars()["s"], {
+				cometd.publish("/whiteboard/drawing/" + getUrlVars()["s"] + getUrlVars()["p"] + getUrlVars()["e"], {
 					user: getUrlVars() ["u"],
 					drawing: data,
 					action: 3
@@ -852,12 +804,31 @@ var publish_flag = true; //a flag that will enable/disable publishing
 			
 			
 		},
+		
+		tutorClick: function(tutorOption) {
+			var selectedStencil = _drawing.stencils.getRecentStencil();
+            var item = items[selectedStencil.combo.id];
 
-		onRightClick: function(obj) {
-			
-			console.warn("Last selected stencil: ", _drawing.stencils.getRecentStencil());
-			
-		}
+            if(tutorOption == "Correct"){
+
+				item.attr(andes.defaults["correct"]);
+
+            }
+			else if(tutorOption == "Incorrect"){
+				item.attr(andes.defaults["incorrect"]);
+            }
+            
+            var data = andes.convert.drawingToAndes(item, "modify-object");
+            this.save(data);
+
+            if(publish_flag) {
+				cometd.publish("/whiteboard/drawing/" + getUrlVars()["s"] + getUrlVars()["p"] + getUrlVars()["e"], {
+					user: getUrlVars() ["u"],
+					drawing: data,
+                    action: 1
+                });
+            }
+        }
 	};
 	
 	function getUrlVars() {

@@ -303,10 +303,24 @@ public class ServerChannelImpl implements ServerChannel, ConfigurableServerChann
     		
     		JSONObject json = (JSONObject) JSONSerializer.toJSON(mutable.getJSON());
     		json =json.getJSONObject("data");
+    		json=json.getJSONObject("drawing");
+    		String objectAction=json.getString("action");
+    		//parse the field that will uniquely identify the object.
+    		if (objectAction.equals("set-score"))
+    		{
+				mutable.setClientId(null);
+                
+				if(_bayeux.extendSend(session,null,mutable))
+					_bayeux.doPublish(session,this,mutable);
+					
+				return;
+			}
+			json = (JSONObject) JSONSerializer.toJSON(mutable.getJSON());
+    		json =json.getJSONObject("data");
     		String ownerId=json.getString("user");
     		json=json.getJSONObject("drawing");
     		String objectId=json.getString("id");
-    		String objectAction=json.getString("action");
+    		objectAction=json.getString("action");
     		
     		//1. Object-selected: 
     		//1.1 Add to map if it does not exist.

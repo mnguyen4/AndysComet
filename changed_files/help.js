@@ -61,7 +61,7 @@ var cometd = dojox.cometd;
 
 	dojo.addOnUnload(function(){
 		
-		cometd.publish("/chat/" + getUrlVars()["p"] + getUrlVars()["s"], {
+		cometd.publish("/chat/" + getUrlVars()["s"] + getUrlVars()["p"] + getUrlVars()["e"], {
 				user: "",
 				chat: "<font color=\"red\">"+ getUrlVars()["u"] + " has left.</font>"
 			});
@@ -95,11 +95,11 @@ var cometd = dojox.cometd;
 		    },
 		    
 		    subscribe: function(){
-				cometd.subscribe("/chat/" + getUrlVars()["p"] + getUrlVars()["s"], this, "receive");
+				cometd.subscribe("/chat/" + getUrlVars()["s"] + getUrlVars()["p"] + getUrlVars()["e"], this, "receive");
 			},
 			
 		    publish_join: function(){
-				cometd.publish("/chat/" + getUrlVars()["p"] + getUrlVars()["s"], {
+				cometd.publish("/chat/" + getUrlVars()["s"] + getUrlVars()["p"] + getUrlVars()["e"], {
 					user: "",
 					chat: "<font color=\"green\">" + room._username + " has joined room " + getUrlVars()["p"] + getUrlVars()["s"] + ".</font>"
 				});
@@ -136,7 +136,7 @@ var cometd = dojox.cometd;
 	                //	setting to the node and not with attr
 	                // 	because ContentPane is throwing errors that way
       		hlp.containerNode.innerHTML = c + "\n<p><span class=\"comment\">" + user + ": " + value + "</span></p>";
-		cometd.publish("/chat/" + getUrlVars()["p"] + getUrlVars()["s"], {
+		cometd.publish("/chat/" + getUrlVars()["s"] + getUrlVars()["p"] + getUrlVars()["e"], {
 			user: user,
 			chat: ": " + value
 		});
@@ -147,7 +147,7 @@ var cometd = dojox.cometd;
 	andes.help.echoSingle = function(value, user) {
 		
 		if(value == '!'){
-			value = "Ha! Doop!";
+			value = "Ha! A rotten egg!";
 		}
 		if(value.length>0){
 		    var hlp = dijit.byId("helpContentPane");
