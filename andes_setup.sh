@@ -6,14 +6,7 @@
 # Getting all the required stuff
 apt-get install git make mvn
 
-echo Installing andes at: $(pwd)/AndysComet
-
-git clone git://github.com/awaldow/AndysComet.git AndysComet
-
-echo $(pwd)/AndysComet/ created.
-
-
-cd AndysComet/cometd/trunk/
+cd /cometd/trunk/
 
 # Compile the code 
 
