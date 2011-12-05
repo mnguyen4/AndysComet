@@ -1,43 +1,25 @@
 #!/bin/sh
 
 # Easy setup for Andes on Ubuntu
-# Be sure to run this on the Desktop
+# Be sure to run this at the location you wish the server to be installed
 
 # Getting all the required stuff
-sudo apt-get install git make subversion g++ libmysqlclient-dev mysql-server \
-                apache2 libapache2-mod-proxy-html wget php5 php5-mysql
+apt-get install git make mvn
 
-echo Installing andes at: $(pwd)/andes
+echo Installing andes at: $(pwd)/AndysComet
 
-git clone git://github.com/bvds/andes.git andes
+git clone git://github.com/awaldow/AndysComet.git AndysComet
 
-echo $(pwd)/andes/ created.
-
-cd andes
-
-git checkout --track -b stable origin/stable
-
-# At this point, we have the stable branch downloaded. Time to install
+echo $(pwd)/AndysComet/ created.
 
 
-# Install sbcl
-cd lisp-site-install
-sudo make get-binary
-sudo make get-source
-sudo make source-install
-cd ..
-sudo make sbclrc
+cd AndysComet/cometd/trunk/
 
-# Configure the database
-# Need to configure MySQL with proper user/pass
-#/usr/bin/mysqladmin -u root password 'mysql-password'
-#/sbin/service mysqld restart
-sudo make install-database
+# Compile the code 
 
-# Configure apache2
-sudo make configure-httpd
+mvn versions:use-latest-versions
+mvn clean install
 
-# Install dojo
-make install-dojo
+mvn --v
+echo Run sh startup.sh to start the server.
 
-echo Copy the problems and solutions to /andes and do make install-solver
